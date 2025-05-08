@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+.env
+venv/
+.env.*
+
+# Jupyter
+.ipynb_checkpoints
+
+# Streamlit
+.streamlit/secrets.toml
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log

@@ -1,0 +1,8 @@
+streamlit
+openai
+supabase
+pytesseract
+pillow
+pymupdf
+pandas
+python-docx

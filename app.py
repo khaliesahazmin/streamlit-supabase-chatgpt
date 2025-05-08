@@ -9,8 +9,8 @@ from supabase import create_client, Client
 import os
 
 # Load Supabase credentials (or use st.secrets)
-url = "https://your-project.supabase.co"
-key = "your-service-role-key"
+url = "https://ffveploxghexwswvaiur.supabase.co" 
+key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZmdmVwbG94Z2hleHdzd3ZhaXVyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDY2NjEwMjksImV4cCI6MjA2MjIzNzAyOX0.F6HWiDl2hKpr6xd4boKWD6C7ooo-DMdMttGeC5LyQ9M" 
 supabase: Client = create_client(url, key)
 
 st.title("📄 Universal Document Reader with ChatGPT + Supabase")
